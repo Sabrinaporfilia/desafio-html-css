@@ -1,0 +1,66 @@
+body {
+        font-family: 'Public Sans', sans-serif;
+        font-weight: 400;
+    }
+
+.header {
+    display: flex;
+    padding: 2%;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    
+}
+
+.menu {
+    display: flex;
+    font-size: 15px;
+    justify-content: right;
+}
+
+nav {
+    align-items:center;
+    margin-left: auto;
+    text-align: center;
+    margin-right: 7%;
+    
+}
+
+nav li {
+    padding: 10px;
+}
+
+
+.logo{
+    flex-direction: row;
+}
+
+h1{
+    align-items:center;
+    font-size: 20px;
+    height: 24%;
+    width: 15%;
+}
+
+.menu li a {
+    padding: 10px 5px;
+    margin-left: 1.5rem;
+    transition: 0.3s ease-in-out;
+}
+.menu li a:hover {
+    background-color: #5BC241;
+    color: #FFFFFF;
+    /* padding: 11px; */
+    
+}
+
+.menu li a.botao {
+    color: #FFFFFF;
+    background-color: #5BC241;
+    padding: 10px 10px;
+    border-radius: 10px;
+    margin-left: 1rem;
+}
+
+
+

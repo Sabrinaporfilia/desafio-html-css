@@ -1,0 +1,49 @@
+   @media(max-width: 931px) {
+
+    .header {
+        margin-top: 10%;
+
+    }
+
+    nav {
+        display: block;
+        text-align: center;
+        width: 100%; 
+        
+    }
+
+    .menu {
+        display: block;
+        margin-top: 30px;
+        font-size: 2.5rem;
+        margin: 10%;
+    }
+
+    .menu li {
+        padding: 20px;
+    }
+
+    h1{
+        font-size: 2.5rem;
+        margin-left: 15%;
+       
+    }
+
+    img {
+        margin-left: 100%;
+    }
+    
+    .menu li:last-child {
+        margin-top: 10px;
+    }
+
+    .menu li a.botao {
+        font-size: 1rem;
+        padding: 15px 23px;
+    }
+} 
+
+
+
+
+
